@@ -4,7 +4,7 @@
 #include <climits>
 #include <string>
 
-namespace math_lib {
+
 
 // Твоя структура с понятными именами полей
 struct CalculationData {
@@ -13,6 +13,8 @@ struct CalculationData {
     int second_number;   // Вместо b
     int factorial_n;     // Вместо n
 };
+
+namespace math_lib {
 
 class Calculator {
 public:
